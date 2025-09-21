@@ -5,7 +5,7 @@ package com.javanauta.bffagendadortarefas.controller;
 import com.javanauta.bffagendadortarefas.business.TarefasService;
 import com.javanauta.bffagendadortarefas.business.dto.in.TarefasDTORequest;
 import com.javanauta.bffagendadortarefas.business.dto.out.TarefasDTOResponse;
-import com.javanauta.bffagendadortarefas.infrastructure.client.enums.StatusNotificacaoEnum;
+import com.javanauta.bffagendadortarefas.business.enums.StatusNotificacaoEnum;
 import com.javanauta.bffagendadortarefas.infrastructure.security.SecurityConfig;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;

@@ -11,7 +11,8 @@ import java.util.List;
 @Builder
 public class UsuarioDTORequest {
 
-
+    private String email;
+    private String senha;
     private String nome;
     private List<EnderecoDTORequest> enderecos;
     private List<TelefoneDTORequest> telefones;

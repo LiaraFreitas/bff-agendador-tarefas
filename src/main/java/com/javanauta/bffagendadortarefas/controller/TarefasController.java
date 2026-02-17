@@ -29,7 +29,7 @@ public class TarefasController {
     private final TarefasService tarefasService;
 
     @PostMapping
-    @Operation(summary = "Salvar Tarefas de Usuários", description = "Cria um nova tarefa")
+    @Operation(summary = "Salvar tarefas de usuários", description = "Cria um nova tarefa")
     @ApiResponse(responseCode = "200", description = "Tarefa salva com sucesso")
     @ApiResponse(responseCode = "500", description = "Erro de servidor")
     public ResponseEntity<TarefasDTOResponse> gravarTarefas(@RequestBody TarefasDTORequest dto,
